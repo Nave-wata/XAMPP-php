@@ -1,4 +1,4 @@
-# TECH-PROjin_php-practice
+# practice1
 
 ## 練習サイト
 
