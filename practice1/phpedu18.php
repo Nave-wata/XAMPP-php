@@ -1,9 +1,3 @@
-<?php
-    $sum = 0;
-    for($i = 1; $i <= 10; $i++) {
-        $sum += $i;
-    }
-?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -24,10 +18,19 @@
     <body>
         <div class="container">
             <div class="page-header">
-                <h1><i class="fa fa-check-square"></i> PHP問題１３</h1>
+                <h1><i class="fa fa-check-square"></i> PHP問題１８</h1>
             </div>
             <div class="jumbotron">
-                <h1><?= $sum ?></h1>
+            <h3>
+            <?php
+                $a = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+                foreach($a as $v) {
+                    if($v % 2 == 1){
+                        echo $v;
+                    }
+                }
+            ?>
+            </h3>
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
