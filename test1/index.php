@@ -1,24 +1,12 @@
 <html>
-<head><title>PHP TEST</title></head>
+<head>
+  <meta charset="utf-8" />
+</head>
 <body>
-
-<h1>メール送信</h1>
-
-<?php
-$to = 'towa7261@gmail.com';
-$subject = 'test mail';
-$message = "This is Test mail¥nMulti Line";
-$message = wordwrap($message, 70, "\n");
-$headers = 'From: my@example.jp'."\r\n".
-           'To: towa7261@gmail.com'."\r\n".
-           'X-Mailer: PHP/Mail';
-
-if (mail($to, $subject, $message, $headers)){
-  print('成功');
-}else{
-  print('エラー');
-}
-?>
-
+  <form action="./test_mail.php" method="post">
+    <p>送り先</p><input type="text" name="to">
+    <p>件名</p><input type="text" name="title">
+    <p>メッセージ</p><textarea name="message" cols="60" rows="10"></textarea>
+    <p><input type="submit" name="send" value="送信"></p>
+  </form>
 </body>
-</html>

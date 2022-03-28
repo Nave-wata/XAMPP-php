@@ -12,9 +12,9 @@
     $to = $_POST['to'];
     $title = $_POST['title'];
     $message = $_POST['message'];
-    $headers = "From: from@example.com";
+    $headers = "From: towa7261@gmail.com";
 
-    if (mb_send_mail($to, $title, $message)) {
+    if (mb_send_mail($to, $title, $message, $headers)) {
         echo "メール送信成功です";
     } else {
         echo "メール送信失敗です";
