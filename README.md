@@ -16,7 +16,7 @@ php.iniを編集（phpinfoで場所探せる）
 ```php
 [mail function]
 ⋮
-smtp_port = 587 <関係ないかも>
+smtp_port = 587 <関係ないとおもう>
 ⋮
 sendmail_path = /usr/sbin/sendmail -t -i <重要>
 ```
