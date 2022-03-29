@@ -2,7 +2,7 @@
 
 ## Postfixを用いてのメール送信
 
-[ここ](https://blog.ymyzk.com/2017/06/postfix-smarthost-gmail/)を参考にして，`<username>`は普通にgmailアドレス・`<password>`はGoogleアカウントで作成？したアプリパスワード的なものを書く．
+[ここ](https://blog.ymyzk.com/2017/06/postfix-smarthost-gmail/)を参考にして，`<username>`は普通にgmailアドレス・`<password>`はGoogleアカウントで作成？したアプリパスワード的なものを書く．(2段階承認必須)
 
 送信
 ```cmd
