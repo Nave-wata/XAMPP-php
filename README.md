@@ -22,3 +22,7 @@ sendmail_path = /usr/sbin/sendmail -t -i <重要>
 ```
 
 の2カ所書き換え
+
+## やること
+
+phpのメールにファイルを添付する
