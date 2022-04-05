@@ -21,4 +21,10 @@ smtp_port = 587 <関係ないとおもう>
 sendmail_path = /usr/sbin/sendmail -t -i <重要>
 ```
 
+/etc/postfix/main.cfの編集（無ければエラーでるかな？）
+
+```rf
+inet_protcols=ipv4
+```
+
 の2カ所書き換え
