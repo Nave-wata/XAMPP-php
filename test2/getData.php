@@ -1,9 +1,11 @@
 <?php
-$animals = array(
-	"data" => "hoge", 
+$now = array(
+    "time" => date("Y/m/d h:m:s")
 );
 
-// 連想配列($array)をJSONに変換(エンコード)する
-$json = json_encode( $animals ) ;
+$json = json_encode($now);
 echo $json;
+
+//処理終了
+exit;
 ?>

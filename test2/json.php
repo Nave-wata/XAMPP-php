@@ -11,7 +11,7 @@ $array = array(
 );
 
 $animals = array(
-	"data" => "hoge", 
+    "animal" => "dog"
 );
 
 // 連想配列($array)をJSONに変換(エンコード)する
