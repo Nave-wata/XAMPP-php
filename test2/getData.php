@@ -1,6 +1,13 @@
 <?php
 $now = array(
-    "time" => date("Y/m/d h:m:s")
+    "a" => array(
+        "a" => "a", 
+        "b" => "b"
+    ), 
+    "b" => array(
+        "a" => "c", 
+        "b" => "d"
+    )
 );
 
 $json = json_encode($now);
