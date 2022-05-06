@@ -11,13 +11,10 @@ $ echo "<本文>" | mail <メールアドレス>
 
 ## PHPでのメール送信
 
-php.iniを編集（phpinfoで場所探せる）
+/opt/lampp/etc/php.iniを編集（phpinfoで場所探せる）
 
 ```ini
 [mail function]
-⋮
-smtp_port = 587 <関係ないとおもう>
-⋮
 sendmail_path = /usr/sbin/sendmail -t -i <重要>
 ```
 
