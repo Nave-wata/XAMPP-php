@@ -25,3 +25,6 @@ inet_protcols=ipv4
 ```
 
 の2カ所書き換え
+
+Laravelのメール送信は、.envにアドレスとアプリパスだけで行ける。
+postmapとかの作業はいらない
